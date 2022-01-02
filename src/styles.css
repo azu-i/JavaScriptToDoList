@@ -1,3 +1,61 @@
 body {
   font-family: sans-serif;
 }
+
+input {
+  border-radius: 10px;
+  border: none;
+  padding: 4px 10px;
+  outline: none;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  padding: 4px 10px;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #ff7fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.listRow {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.listRow p {
+  margin-right: 10px;
+}
+
+.inputArea {
+  background-color: #c1fffc;
+}
+
+.incompleteArea {
+  background-color: #c6ffe2;
+}
+
+.completeArea {
+  background-color: #ffffe0;
+}
+
+.inputArea,
+.incompleteArea,
+.completeArea {
+  padding: 10px;
+  width: 400px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
